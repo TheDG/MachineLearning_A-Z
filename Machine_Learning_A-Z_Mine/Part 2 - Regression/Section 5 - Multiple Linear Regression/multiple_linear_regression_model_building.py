@@ -4,11 +4,11 @@
 # Importing the libraries
 import statsmodels.api as sm
 from sklearn.linear_model import LinearRegression
-import data_preprocessing_template as preprocessed_data
 import sys
 import numpy as np
 sys.path.append(
-    'Machine_Learning_A-Z_Mine/Part 2 - Regression/Section 5 - Multiple Linear Regression')
+    'Part 2 - Regression/Section 5 - Multiple Linear Regression')
+import data_preprocessing_template as preprocessed_data
 
 # %% codecell
 # preprocess data

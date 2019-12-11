@@ -11,7 +11,7 @@ pd.options.display.max_rows = None
 # importing dataset
 def import_dataset():
     df = pd.read_csv(
-        '/Users/diegosinay/Downloads/ML/Machine_Learning_A-Z_Mine/Part 2 - Regression/Section 4 - Simple Linear Regression/Salary_Data.csv')
+        'Part 2 - Regression/Section 4 - Simple Linear Regression/Salary_Data.csv')
     x = df.iloc[:, :-1].values
     y = df.iloc[:, 1].values
     # df

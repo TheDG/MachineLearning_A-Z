@@ -14,7 +14,7 @@ pd.options.display.max_rows = None
 # importing dataset
 def import_dataset():
     df = pd.read_csv(
-        '/Users/diegosinay/Downloads/ML/Machine_Learning_A-Z_Mine/Part 2 - Regression/Section 5 - Multiple Linear Regression/50_Startups.csv')
+        '/Users/diegosinay/GitHub/MachineLearning_A-Z/Machine_Learning_A-Z_Mine/Part 2 - Regression/Section 5 - Multiple Linear Regression/50_Startups.csv')
     x = df.iloc[:, :-1].values
     y = df.iloc[:, -1].values
     return x, y

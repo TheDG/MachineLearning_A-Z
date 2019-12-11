@@ -4,7 +4,7 @@
 # Importing the libraries
 import sys
 import matplotlib.pyplot as plt
-sys.path.append('Machine_Learning_A-Z_Mine/Part 2 - Regression/Section 4 - Simple Linear Regression')
+sys.path.append('Part 2 - Regression/Section 4 - Simple Linear Regression')
 
 # %% codecell
 # preprocess data
