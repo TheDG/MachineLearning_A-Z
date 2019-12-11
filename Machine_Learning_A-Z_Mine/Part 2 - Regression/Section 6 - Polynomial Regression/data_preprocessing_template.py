@@ -3,6 +3,7 @@
 
 # %% codecell
 import pandas as pd
+import os
 # import numpy as np
 # from sklearn.preprocessing import OneHotEncoder
 # from sklearn.compose import ColumnTransformer
@@ -15,8 +16,11 @@ pd.options.display.max_rows = None
 # %% codecell
 # importing dataset
 def import_dataset():
-    df = pd.read_csv(
-        '/Users/diegosinay/GitHub/MachineLearning_A-Z/Machine_Learning_A-Z_Mine/Part 2 - Regression/Section 6 - Polynomial Regression/Position_Salaries.csv')
+    if '__file__' in globals() and os.path.basename(os.getcwd()) != 'MachineLearning_A-Z':
+        path = os.getcwd() + '/Position_Salaries.csv'
+    else:
+        path = os.getcwd() + '/Machine_Learning_A-Z_Mine/Part 2 - Regression/Section 6 - Polynomial Regression/Position_Salaries.csv'
+    df = pd.read_csv(path)
     x = df.iloc[:, 1:2].values
     y = df.iloc[:, 2].values
     return x, y

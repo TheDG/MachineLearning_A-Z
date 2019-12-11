@@ -2,4 +2,3 @@
 
 
 ## TODO
-* Add Env Variable for Root Directory
