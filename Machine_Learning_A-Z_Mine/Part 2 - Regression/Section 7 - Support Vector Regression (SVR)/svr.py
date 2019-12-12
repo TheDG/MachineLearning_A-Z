@@ -3,7 +3,6 @@
 # %% codecell
 # Importing the libraries
 from sklearn.svm import SVR
-from sklearn.preprocessing import StandardScaler
 import sys
 import os
 import matplotlib.pyplot as plt
@@ -46,6 +45,5 @@ plt.show()
 
 # %% codecell
 # Predicting a new result with SVR
-
 xi = sc_x.fit_transform([[6.5]])
 sc_y.inverse_transform(regresor.predict(xi))
