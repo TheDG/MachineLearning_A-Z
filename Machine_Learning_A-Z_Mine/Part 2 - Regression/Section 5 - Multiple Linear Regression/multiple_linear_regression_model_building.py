@@ -5,10 +5,12 @@
 import statsmodels.api as sm
 from sklearn.linear_model import LinearRegression
 import sys
+import os
 import numpy as np
-sys.path.append(
-    'Part 2 - Regression/Section 5 - Multiple Linear Regression')
+if '__file__' not in globals():
+    sys.path.append(os.getcwd() + 'Machine_Learning_A-Z_Mine/Part 2 - Regression/Section 5 - Multiple Linear Regression')
 import data_preprocessing_template as preprocessed_data
+
 
 # %% codecell
 # preprocess data
@@ -56,7 +58,6 @@ regressor_OLS.summary()
 
 # %% codecell
 # automatic backward elmination
-
 def backwardElimination(x, SL):
     numVars = len(x[0])
     selected_cols = list(range(0, numVars))
