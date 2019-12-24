@@ -23,4 +23,5 @@ If your problem is linear, you should go for Simple Linear Regression if you onl
 If your problem is non linear, you should go for Polynomial Regression, SVR, Decision Tree or Random Forest. Then which one should you choose among these four ? That you will learn in Part 10 - Model Selection.
 
 # Feature Scaling?
-If Model uses some sort of distance to predict or evaluate the model, you should scale the data (normalize or regularize)
+If Model uses some sort of distance to predict or evaluate the model, you should scale the data (normalize or regularize).
+Also, feature scaling is applied so that the gradient descent converges much faster.
