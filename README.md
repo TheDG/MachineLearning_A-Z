@@ -9,5 +9,5 @@
 [Notes on Clustering models ](Machine_Learning_A-Z_Mine/Part%204%20-%20Clustering/Section%2026%20-%20Part%20Recap/notes.md)
 
 [Notes on Association Learning models | Instructions for external Eclat Algorithm](Machine_Learning_A-Z_Mine/Part%205%20-%20Association%20Rule%20Learning/Section%2030%20-%20Part%20Recap/notes.md)
+
 ## TODO
-add notes on theory
