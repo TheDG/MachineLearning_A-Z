@@ -19,7 +19,7 @@ def import_dataset():
     if '__file__' in globals() or os.path.basename(os.getcwd()) != 'MachineLearning_A-Z':
         path = os.getcwd() + '/Mall_Customers.csv'
     else:
-        path = os.getcwd() + '/Machine_Learning_A-Z_Mine/Part 4 - Clustering/Section 25 - Hierarchical Clustering'
+        path = os.getcwd() + '/Machine_Learning_A-Z_Mine/Part 4 - Clustering/Section 25 - Hierarchical Clustering/Mall_Customers.csv'
     df = pd.read_csv(path)
     x = df.iloc[:, [3, 4]].values
     return x
