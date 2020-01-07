@@ -10,4 +10,6 @@
 
 [Notes on Association Learning models | Instructions for external Eclat Algorithm](Machine_Learning_A-Z_Mine/Part%205%20-%20Association%20Rule%20Learning/Section%2030%20-%20Part%20Recap/notes.md)
 
+[Notes on Reinforcement Learning models | Terms and Theory](Machine_Learning_A-Z_Mine/Part%206%20-%20Reinforcement%20Learning/Section%2034%20-%20Part%20Recap/notes.md)
+
 ## TODO
