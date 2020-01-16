@@ -1,5 +1,7 @@
-# Decision Tree
+# Decision Tree | Random Forrest
 Great for Classification.
+### [Deep Dive](random_forrest_notes.md)
+
 
 # Ensemble Learning
 Taking multiple machine learning algorithms and putting them together to create one bigger algorithm. Final algorithm uses / leverages many other ML algorithms.
