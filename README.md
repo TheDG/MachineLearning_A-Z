@@ -12,4 +12,9 @@
 
 [Notes on Reinforcement Learning models | Terms and Theory](Machine_Learning_A-Z_Mine/Part%206%20-%20Reinforcement%20Learning/Section%2034%20-%20Part%20Recap/notes.md)
 
+[Notes on NLP | Basic Concepts (Bag of Words)](Machine_Learning_A-Z_Mine/Part%207%20-%20Natural%20Language%20Processing/Section%2037%20-%20Part%20Recap/notes.md)
+
 ## TODO
+
+- Add code for critical / important algorithms
+- Add math / explanation for algorithms
