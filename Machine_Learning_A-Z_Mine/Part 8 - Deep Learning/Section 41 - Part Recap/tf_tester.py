@@ -5,8 +5,12 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 # TensorFlow and tf.keras
 import tensorflow as tf
 from tensorflow import keras
+print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
+get_ipython().run_line_magic('load_ext', 'tensorboard')
+get_ipython().system('rm -rf ./logs/')
 # Helper libraries
 import numpy as np
+import datetime
 import matplotlib.pyplot as plt
 
 print(tf.__version__)
@@ -109,8 +113,16 @@ model.compile(optimizer='adam',
 # ### Feed the model
 #
 # To start training,  call the `model.fit` method—so called because it "fits" the model to the training data:
+
+# %% markdown
+# ### Using TensorBoard with Keras Model.fit()
 # %% codecell
-model.fit(x_train, y_train, epochs=10)
+log_dir="logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
+model.fit(x_train, y_train, epochs=10,validation_data=(x_test, y_test),
+          callbacks=[tensorboard_callback])
+
+# get_ipython().run_line_magic('tensorboard', '--logdir logs/fit')
 
 # %% markdown
 # ### Evaluate accuracy

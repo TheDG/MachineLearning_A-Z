@@ -121,4 +121,7 @@ Backpropagation is a method to adjust the connection weights to compensate for e
       * If update weights after a batch of observation --> Batch Learning
     7. When the whole training set passed through the ANN, that makes an epoch.
 
-# [TF 2.0 Basic classification: Classify images of clothing](tf_tester.ipynb)
+# [TF 2.0 Basic classification: Classify images of clothing](tf_tester.py)
+Requires to be run with ipython
+
+To view tensor graph run `tensorboard --logdir logs/fit` on different terminal
