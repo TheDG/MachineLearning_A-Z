@@ -31,7 +31,7 @@ index = []
 data = []
 
 
-def add_to_table(cm, algorithm, data):
+def add_to_table(cm, algorithm, data, index):
     index.append(algorithm)
     tn, fp, fn, tp = cm.ravel()
     accuracy = round((tp + tn) / (tp + tn + fp + fn), 3)
@@ -60,7 +60,7 @@ for name, clf in zip(names, classifiers):
     clf.fit(x_train, y_train)
     y_pred = clf.predict(x_test)
     cm = confusion_matrix(y_test, y_pred)
-    add_to_table(cm, name, data)
+    add_to_table(cm, name, data, index)
 
 # %% codecell
 df = pd.DataFrame(data, columns=columns, index=names)

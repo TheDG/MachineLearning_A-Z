@@ -2,3 +2,5 @@
 .python-version
 Machine Learning Templates/*
 .ropeproject
+**/logs/
+**/__pycache__/
