@@ -17,6 +17,8 @@
 [Notes on Artificial Neural Networks | Intuition + Neuroscience Intro + NN Machine Representation + Basic NN Algorithm and Concepts + TF 2.0 Quickstart ](Machine_Learning_A-Z_Mine/Part%208%20-%20Deep%20Learning/Section%2041%20-%20Part%20Recap/notes.md)
 
 [Notes on Convolutional Neural Networks | Intuition + Basic CNN Algorithm and Concepts ](Machine_Learning_A-Z_Mine/Part%208%20-%20Deep%20Learning/Section%2041%20-%20Part%20Recap/notes_cnn.md)
+
+[Notes on Dimensionality Reduction | PCA + LDA + QDA ](Machine_Learning_A-Z_Mine/Part%209%20-%20Dimensionality%20Reduction/Section%2046%20-%20Part%20Recap/notes.md)
 ## TODO
 
 - Add code for critical / important algorithms
